@@ -17,3 +17,6 @@ IndexOptimize: SQL Server Index and Statistics Maintenance
 CommandExecute: Stored procedure to execute and log commands
 CommandLog: Table to log commands
 Note that you always need CommandExecute, DatabaseBackup, DatabaseIntegrityCheck, and IndexOptimize are using it. You need CommandLog if you are going to use the option to log commands to a table.
+
+DBCC CHECKDB PHYSICAL OPTION:
+![image](https://github.com/ESLCH/OLA/assets/21200911/34f32fb3-11cb-4cd5-94ef-a12993f0ca92)
