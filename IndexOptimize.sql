@@ -1,3 +1,15 @@
+/* BEST SOLUTION FOR HEAVY LOAD ENVIRONMENT */
+/*
+EXECUTE dbo.IndexOptimize
+@Databases = 'AdventureWorks2014, GenerateDB, Sales',
+@FragmentationLevel1 = 30,
+@FragmentationLevel2 = 50,
+@FragmentationLow = NULL,
+@FragmentationMedium = 'INDEX_REORGANIZE',
+@FragmentationHigh = 'INDEX_REBUILD_ONLINE,INDEX_REBUILD_OFFLINE',
+@PageCountLevel = 500,
+@TimeLimit = 3600
+*/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
